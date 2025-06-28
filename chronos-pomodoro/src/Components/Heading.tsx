@@ -4,10 +4,10 @@ type HeadingProps = {
   children: string;
 };
 
-export const Heading = (props: HeadingProps) => {
+export const Heading = ({ children }: HeadingProps) => {
   return (
     <>
-      <h1 className={styles.heading}>{props.children}</h1>
+      <h1 className={styles.heading}>{children}</h1>
     </>
   );
 };

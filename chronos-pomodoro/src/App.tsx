@@ -1,28 +1,22 @@
 import "./styles/theme.css";
 import "./styles/global.css";
+
 import { Container } from "./Components/Container";
-import { Heading } from "./Components/Heading";
-import { TimerIcon } from "lucide-react";
+import { Logo } from "./Components/Logo";
+import { Menu } from "./Components/Menu";
+import { Countdown } from "./Components/Countdown";
 
 export const App = () => {
   return (
     <>
       <Container>
-        <Heading>
-          Marcos Noronha
-          <button>
-            <TimerIcon />
-          </button>
-        </Heading>
+        <Logo />
       </Container>
       <Container>
-        <section>MENU</section>
+        <Menu />
       </Container>
       <Container>
-        <section>FORM</section>
-      </Container>
-      <Container>
-        <section>FOOTER</section>
+        <Countdown />
       </Container>
     </>
   );

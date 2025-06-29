@@ -1,8 +1,8 @@
-import './styles/theme.css';
-import './styles/global.css';
-import { Container } from './Components/Container';
-import { Heading } from './Components/Heading';
-import { TimerIcon } from 'lucide-react';
+import "./styles/theme.css";
+import "./styles/global.css";
+import { Container } from "./Components/Container";
+import { Heading } from "./Components/Heading";
+import { TimerIcon } from "lucide-react";
 
 export const App = () => {
   return (
